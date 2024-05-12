@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<title>David Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<link href="style.css" rel="stylesheet">
+
+<style>
+body{font-family: "urbanist"; font-size: medium;}
+
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 100px */
+.w3-sidebar {width: 100px;background: #f1b30778;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (100px) */
+#main {margin-left: 100px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="/w3images/avatar_smoke.jpg" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>WORK</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">WORK</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> David Guananga </h1>
+    <sub> (AKA URBANISTA)</sub>
+    <p>Photographer and Graphic Deisgner.</p>
+    <img src="Assest/Home picture.jpg" alt="boy" class="w3-image" width="992" height="1108">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">My Name</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>I am a graphic designer , illustrator , and photography . In the artistic sector, I have quite significant talents. My design aesthetic is soft, contemporary, and Gen Z; I always approach concepts in a very direct and unique way. My varied upbringing and experiences in Spain and New York, I think, have had a big impact on my style. In addition to being aesthetically pleasing, my designs aim to be inventive and thought-provoking. My desire to remain current with emerging trends enables me to approach every project I work on from a different angle. In addition, my dedication to timeliness and great organizational abilities ensure that I always do excellent work by the deadline. Furthermore, my strong communication skills allow me to effectively collaborate with brands and understand their vision, ensuring that my designs align with their goals. Additionally, I continuously seek inspiration from various industries and art forms, allowing me to bring fresh and innovative ideas to the table </p>
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+    <p class="w3-wide">Photography</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:70%"></div>
+    </div>
+    <p class="w3-wide">Illustration</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:70%"></div>
+    </div>
+    <p class="w3-wide">Photoshop</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+    </div><br>
+    
+    </div>
+
+    <a href="Assest/Resume copy.pdf" download="Resume">
+    <button class="w3-button w3-light-grey w3-padding-large w3-section ">
+      <i class="fa fa-download"></i> Download Resume
+      
+    </button>
+    </a>
+    
+    
+  <!-- End About Section -->
+  </div>
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">Album Cover</h2>
+    <sub>This album cover project was a unique opportunity to convey the powerful message of Rosalia Vila Tobella's song Candy. The design was crafted with the goal of evoking emotion and resonating with music lovers of all kinds. Explore the below projects to see how design can enhance the listening experience.</sub>
+    <hr style="width:200px" class="w3-opacity">
+    
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half" id="Album cover">
+        <img id="album" src="Assest/Artboard 1.jpg" style="width:100%">
+        <img src="Assest/Artboard 2.jpg" style="width:100%">
+        <img src="Assest/Album cover/Artboard 3.jpg" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="Assest/Artboard 4.png" style="width:100%">
+        <img src="Assest/O6CBJ81.jpg" style="width:100%">
+        <img src="Assest/vinyl-template-C.jpg" style="width:100%">
+        <img src="Assest/vinyl-template-A.jpg" style="width:100%">
+    </div>
+
+    <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">Real Faces of NYC</h2>
+    <sub>This photography series captures the authentic essence of New York City through the faces of its people. From the bustling streets of Manhattan to the quiet corners of Brooklyn, I aimed to document the diverse and vibrant individuals that make this city come alive.</sub>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="Assest/Face 1.jpg" style="width:100%">
+        <img src="Assest/Face 2.jpg" style="width:100%">
+        <img src="Assest/Face 3.jpg" style="width:100%">
+        <img src="Assest/Face 4.jpg" style="width:100%">
+        <img src="Assest/Face 5.jpg" style="width:100%">
+        <img src="Assest/Face 6.jpg" style="width:95%">
+      </div>
+
+      <div class="w3-half">
+        <img src="Assest/Face 7.jpg" style="width:100%">
+        <img src="Assest/Face 8.jpg" style="width:100%">
+        <img src="Assest/Face 9.jpg" style="width:100%">
+        <img src="Assest/Face 10.jpg" style="width:100%">
+        <img src="Assest/Face 11.jpg" style="width:100%">
+        <img src="Assest/Face 12.jpg" style="width:100%">
+        <img src="Assest/Face 13.jpg" style="width:100%">
+    </div>
+    
+    <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">Visual Quote</h2>
+    <sub>The design for "Okay Motomami" by Rosalia, released in 2022, focuses on the motorcycle, leather, helmet, and caos aesthetics. The word Motomami is divided into aggressive and cute parts, with red, black, and white colors representing the aggressiveness and edginess of the motorcycle aesthetic while incorporating softness and fun. The design aims to embody Motomami's dynamic character, inspiring empowerment and originality by fusing two diametrically opposed aspects.</sub>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="Assest/Caroulse Motomami-03 copy.png" style="width:100%">
+        <img src="Assest/Artboard 1 copy.jpg" style="width:100%">
+        <img src="Assest/Artboard 5 copy.jpg" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="Assest/Artboard 6 copy.jpg" style="width:100%">
+        <img src="Assest/Artboard 7 copy.jpg" style="width:100%">
+        <img src="Assest/Artboard 2 copy.jpg" style="width:100%">
+    
+    </div>
+
+    <!-- Portfolio Section -->
+    <div class="w3-padding-64 w3-content" id="photos">
+        <h2 class="w3-text-light-grey">Real New York</h2>
+        <sub>New York City has always been an inspiration for photographers. At Real NY, I aim to showcase the city's individuality and unique personality. Through my pictures, I take you on a journey that explores every corner of New York. My photos are a reflection of the city's energy and experience, capturing its essence in a way that will transport you to a New York state of mind.</sub>
+        <hr style="width:200px" class="w3-opacity">
+    
+        <!-- Grid for photos -->
+        <div class="w3-row-padding" style="margin:0 -16px">
+          <div class="w3-half">
+            <img src="Assest/Real nyc 1.jpg" style="width:100%">
+            <img src="Assest/Real nyc 2.jpg" style="width:100%">
+            <img src="Assest/Real nyc 3.jpg" style="width:100%">
+            <img src="Assest/Real NYC/Real nyc 4.jpg" style="width:100%">
+            <img src="Assest/Real NYC/Real nyc 5.jpg" style="width:100%">
+            <img src="Assest/Real NYC/Real nyc 6.jpg" style="width:100%">
+          </div>
+    
+          <div class="w3-half">
+            <img src="Assest/Real nyc 8.jpg" style="width:100%">
+            <img src="Assest/Real nyc 7.jpg" style="width:100%">
+            <img src="Assest/Real nyc 9.jpg" style="width:100%">
+            <img src="Assest/Real nyc 10.jpg" style="width:100%">
+            <img src="Assest/Real nyc 11.jpg" style="width:100%">
+            <img src="Assest/Real nyc 12.jpg" style="width:100%">
+            <img src="Assest/Real nyc 13.jpg" style="width:100%">
+        </div>     
+    
+        <!-- Portfolio Section -->
+    <div class="w3-padding-64 w3-content" id="photos">
+        <h2 class="w3-text-light-grey">Photo Shoot</h2>
+        <sub>In this photoshoot, I aimed to capture the unbridled joy and authenticity of friendship. With a focus on natural light and playful poses, I sought to document the unscripted moments that reveal the true beauty of relationships.</sub>
+        <hr style="width:200px" class="w3-opacity">
+    
+        <!-- Grid for photos -->
+        <div class="w3-row-padding" style="margin:0 -16px">
+          <div class="w3-half">
+            <img src="Assest/Photoshoot 7.jpg" style="width:100%">
+            <img src="Assest/Photoshoot 2.jpg" style="width:100%">
+            <img src="Assest/Photoshoot 3.jpg" style="width:100%">
+            <img src="Assest/Photoshoot 4.jpg" style="width:100%">
+            <img src="Assest/Photoshoot 5.jpg" style="width:100%">
+            <img src="Assest/Photoshoot 8.jpg" style="width:100%">
+            <img src="Assest/Photoshoot 6.jpg" style="width:100%">
+          </div>
+    
+          <div class="w3-half">
+            <img src="Assest/Photoshoot 11.jpg" style="width:100%">
+            <img src="Assest/Photoshoot 12.jpg" style="width:100%">
+            <img src="Assest/Photoshoot 17.jpg" style="width:100%">
+            <img src="Assest/Photoshoot 18.jpg" style="width:100%">
+            <img src="Assest/Photoshoot 16.jpg" style="width:100%">
+            <img src="Assest/Photoshoot 19.jpg" style="width:100%">
+            <img src="Assest/Photoshoot 13.jpg" style="width:100%">
+        </div>    
+    
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> New York City, USA</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +1 929 290 6385</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: davidguananga6@mail.com</p>
+    </div><br>
+    <p>Let's get in touch. Send me a message:</p>
+
+    <form action="https://formsubmit.co/davidguananga6@gmail.com" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        
+          <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+            <i class="fa fa-paper-plane"></i> SEND MESSAGE
+          </button>
+        
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+
+    <a class="social media" href="https://www.instagram.com/david_urbanista" target="_blank">
+      <ion-icon name="logo-instagram"></ion-icon>
+    </a>
+
+    <a class="social media" href="https://www.behance.net/davidguananga" target="_blank">
+      <ion-icon name="logo-behance"></ion-icon>
+    </a>
+
+    <a class="social media" href="https://www.linkedin.com/in/david-guananga-6543732a9" target="_blank">
+      <ion-icon name="logo-linkedin"></ion-icon>
+    </a>
+
+    <a class="social media" href="https://flickr.com/photos/199083412@N05/albums/" target="_blank">
+      <ion-icon name="logo-flickr"></ion-icon>
+    </a>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+    <p class="w3-medium">© DAVID GUANANGA - URBANISTA</p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+<script type="text/javascript" src="java.js"></script>
+</body>
+</html>
